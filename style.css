@@ -7,6 +7,7 @@ body {
 
 }
 
+/* Navbar Styling */
 .navbar {
     display: flex;
     background: black;
@@ -46,6 +47,7 @@ a {
     color: white;
 }
 
+/* Section One Styling */
 .sectionone {
     display: flex;
     justify-content: center;
@@ -76,4 +78,92 @@ a {
 
 .image {
     background-color: gray;
+}
+
+/* Section Two Styling */
+
+.sectiontwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ilustrations {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.ilust div {
+    border: 2px solid #3882f6;
+}
+
+/* Section Three Styling */
+.sectionthree {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 50px 100px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.speaker {
+    font-weight: bold;
+    font-size: 30px;
+    align-self: flex-end;
+}
+/* Section Four Styling */
+.sectionfour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.card {
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space space-evenly;
+    padding: 30px;
+    gap: 20px;
+}
+
+h3 {
+    color: white;
+    font-weight: bold;
+}
+
+.container p{
+    color: white;
+    font-size: 18px;
+}
+
+.card button {
+    background-color: #3882f6;
+    border: 2px solid white;
+    color: white;
+}
+/* Footer Styling */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 28px;
+    background-color: #1F2937;
+    color: white;
 }

@@ -66,6 +66,7 @@ a {
 
 .section1 button {
     color: var(--white);
+    font-size: 20px;
     background-color: var(--blue);
     font-weight: bold;
     border-radius: 5px;
@@ -80,10 +81,14 @@ a {
 .image {
     background-color: var(--gray);
     flex: 1 1 250px;
-    max-width: 450px;
+    max-width: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+img {
+    max-width: 1000px;
 }
 
 .image div {
@@ -115,10 +120,10 @@ a {
     text-align: center;
 }
 
-.section2 .ilust div {
+.section2 .ilust img {
     width: 200px;
     height: 200px;
-    border: 2px solid #3882F6;
+    border: 5px solid #3882F6;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -176,10 +181,11 @@ a {
 .section4 button {
     border: 2px solid var(--white);
     border-radius: 5px;
+    font-size: 20px;
     background-color: var(--blue);
     color: var(--white);
-    padding: 3px 30px;
-    height: 30px;
+    padding: 8px 30px;
+    height: 40px;
 }
 
 /* Footer Styling */
